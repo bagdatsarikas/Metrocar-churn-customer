@@ -492,13 +492,6 @@ ORDER BY age_range;
 
 
 
-select count(*) from app_downloads a
-left join signups s 
-on s.session_id = a.app_download_key 
-where age_range = '18-24'
-and download_ts BETWEEN '2021-01-01 00:00:00' AND '2021-12-31 23:59:59'
-and signup_ts BETWEEN '2021-01-01 00:00:00' AND '2021-12-31 23:59:59'
-;
 
 
 
