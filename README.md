@@ -7,7 +7,7 @@ The goal of this project was to **analyze the user funnel** to identify **drop-o
 
 ---
 
-## 🛠 What We Did  
+##  What We Did  
 ➤ Tracked user journey through the funnel: Download → Signup → Request Ride → Ride Accepted → Ride Completed → Payment  
 ➤ Measured conversion and drop-off rates at each stage  
 ➤ Analyzed performance by **platform** (iOS, Android, Web)  
