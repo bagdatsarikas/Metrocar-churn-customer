@@ -1,55 +1,55 @@
 
-# 🚗 Metrocar Funnel Metrics Analysis  
-**By Bagdat Sarıkaş**
+# 🚖 METROCAR — Funnel Metrics Analysis 🚖  
 
-## 📌 Project Overview
-Metrocar is a ride-hailing platform that connects riders and drivers via a mobile app.  
-This project focuses on analyzing the **user funnel** from app download to payment to uncover key drop-off points and optimize conversion rates.
-
-The goal was to deliver **data-driven insights** that support product, marketing, and user experience improvements.
+##  Project Purpose  
+Metrocar is a ride-hailing platform connecting riders and drivers via a mobile app.  
+The goal of this project was to **analyze the user funnel** to identify **drop-off points, measure conversion rates, and provide recommendations** for improving retention and ride completion:contentReference[oaicite:0]{index=0}.  
 
 ---
 
-## 🎯 Project Objectives
-- **Identify Drop-off Points**: Where users exit the funnel before completing the process
-- **Measure Conversion Rates**: Stage-by-stage user progression analysis
-- **Understand User Behavior**: Evaluate trends, patterns, and friction points throughout the customer journey
+## 🛠 What We Did  
+➤ Tracked user journey through the funnel: Download → Signup → Request Ride → Ride Accepted → Ride Completed → Payment  
+➤ Measured conversion and drop-off rates at each stage  
+➤ Analyzed performance by **platform** (iOS, Android, Web)  
+➤ Compared engagement across **age groups** to identify strongest segments  
+➤ Delivered actionable recommendations to improve ride completion rates  
 
 ---
 
-## 🛠️ Tools Used
-- **SQL**: Funnel data exploration and user segmentation  
-- **Tableau**: Data visualization and dashboarding  
+##  Tools & Analysis  
+🗄️ **[SQL Exploration](https://github.com/bagdatsarikas/Metrocar-churn-customer/blob/main/funnel_analysis.sql)** →  
+   - Built funnel step queries (downloads, signups, requests, completions, payments)  
+   - Calculated stage-by-stage conversion & drop-off rates  
+
+
+
+📄 **[Full PDF Report](https://docs.google.com/document/d/1rOXFyOFd7yC1llmUSRfjTJrRs903Z6Vs2NFjYV3aIIE/edit?tab=t.0)** →  
+   - Executive summary, detailed funnel breakdown, demographic insights, and recommendations:contentReference[oaicite:1]{index=1}  
 
 ---
 
-## 📊 Key Insights  
-➤ **High Initial Engagement**: 74.45% of 23,608 app downloaders signed up, showing strong early interest  
-➤ **Ride Request Drop-off**: 29.97% of users dropped off between signup and first ride request  
-➤ **Major Ride Completion Drop-off**: 48.81% drop-off occurred between ride acceptance and ride completion  
-➤ **Strong Payment Conversion**: 99.89% of completed rides led to successful payment  
+## 📈 Key Results  
+➤ **High Initial Engagement:** 23,608 downloads → 17,577 signups (**74.45% conversion**):contentReference[oaicite:2]{index=2}  
+➤ **Major Drop-offs:**  
+   - Signup → Ride Request: **–29.97%** drop-off  
+   - Ride Accepted → Ride Completed: **–48.81%** drop-off (biggest issue):contentReference[oaicite:3]{index=3}  
+➤ **Strong Payment Conversion:** 99.89% of completed rides → payments (very reliable):contentReference[oaicite:4]{index=4}  
+➤ **Platform Insights:** iOS users showed slightly better retention than Android and Web:contentReference[oaicite:5]{index=5}  
+➤ **Demographics:** Age groups **18–24 and 25–34** had the strongest performance across most funnel stages:contentReference[oaicite:6]{index=6}  
 
 ---
 
-## 💡 Recommendations  
-➤ **Improve Ride Completion**: Investigate issues causing ride abandonment after acceptance  
-➤ **iOS Marketing Focus**: iOS users showed higher funnel consistency—allocate more marketing budget accordingly  
-➤ **Target High-Performing Age Groups**: Focus on 18–24 and 25–34 age groups for growth strategies and engagement  
+## 💡 Outcome & Recommendations  
+ **Accomplishment:** Delivered a **full-funnel analysis** highlighting weak conversion points and opportunities.  
+ **Business Value:**  
+- Address **ride completion issues** (operational/UX focus).  
+- Prioritize **iOS marketing spend** (highest conversion consistency).  
+- Target **18–34 age group** with tailored engagement & promotions.  
+🔄 **Next Step:** Run deeper diagnostics into **why nearly half of accepted rides fail to complete** and design interventions (driver reliability, UX, pricing incentives).  
 
 ---
 
-## 🔁 Funnel Stages Breakdown  
-1. **App Download** – User installs the Metrocar app  
-2. **Signup** – User creates an account  
-3. **Request Ride** – User attempts to book their first ride  
-4. **Ride Accepted** – A driver accepts the request  
-5. **Ride Completed** – Ride is successfully completed  
-6. **Payment** – User completes payment for the ride  
+## ✍️ Author  
+**Bağdat Sarıkaş** — Data Analytics & Funnel Optimization
 
----
 
-## 📂 Project Components
-| Component              | Tool     | Link Placeholder |
-|------------------------|----------|------------------|
-| Data Exploration       | SQL      | [SQL Notebook](#) |
-| Funnel Visualization   | Tableau  | [Tableau Dashboard](#) |
